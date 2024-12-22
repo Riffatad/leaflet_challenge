@@ -10,7 +10,7 @@ This project is a web-based application that visualizes earthquake data retrieve
 
 - **HTML**: Provides the basic structure for the project (`index.html`).
 - **CSS**: Styles the map and the legend (`style.css`).
-- **JavaScript**: Fetches and processes earthquake data, renders the map, and applies interactive features (`script.js`).
+- **JavaScript**: Fetches and processes earthquake data, renders the map, and applies interactive features (`logic.js`).
 
 ---
 
