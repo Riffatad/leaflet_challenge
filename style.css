@@ -1,0 +1,20 @@
+/* Resetting default body padding and margin to eliminate any unwanted spacing */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensuring full height for the map container, body, and HTML for proper display */
+#map,
+body,
+html {
+  height: 100%; /* Makes sure the map and container occupy the entire viewport */
+}
+
+/* Styling for the legend box */
+.legend {
+  background: white; /* Set a white background for contrast */
+  padding: 10px; /* Add padding inside the legend for better spacing */
+  border-radius: 4px; /* Smooth, rounded corners for a cleaner look */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+}

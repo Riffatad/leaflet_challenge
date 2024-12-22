@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earthquake Visualization</title>
+
+  <!-- Link to Leaflet CSS for map styling -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+  <!-- Include Leaflet JavaScript library -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Include D3.js library for data handling -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    /* Style for fullscreen map container */
+    #map {
+      height: 100vh; /* Viewport height */
+      width: 100%;   /* Full width */
+    }
+    
+    /* Style for the legend box */
+    .legend {
+      background: white; /* Background color */
+      padding: 10px;     /* Padding inside the box */
+      line-height: 1.5;  /* Line height for text */
+      font-size: 12px;   /* Font size */
+      border: 1px solid #ccc; /* Border styling */
+    }
+  </style>
+</head>
+<body>
+  <!-- Page title -->
+  <h1>Earthquake Visualization</h1>
+
+  <!-- Map container where the map will render -->
+  <div id="map"></div>
+
+  <!-- Link to the JavaScript file containing map logic -->
+  <script src="logic.js"></script>
+</body>
+</html>
+
