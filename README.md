@@ -10,7 +10,7 @@ This project is a web-based application that visualizes earthquake data retrieve
 
 - **HTML**: Provides the basic structure for the project (`index.html`).
 - **CSS**: Styles the map and the legend (`style.css`).
-- **JavaScript**: Fetches and processes earthquake data, renders the map, and applies interactive features (`logic.js`).
+- **JavaScript**: Fetches and processes earthquake data using **D3.js**, renders the map, and applies interactive features (`logic.js`).
 
 ---
 
@@ -67,5 +67,7 @@ This project is a web-based application that visualizes earthquake data retrieve
 
 5. **Legend Creation**:
    - A legend is dynamically added to the bottom-right corner, explaining the depth-to-color mapping.
+   - 
+## Conclusion
 
----
+This project demonstrates how modern web technologies such as **Leaflet.js** and **D3.js** can be used to create an intuitive and interactive visualization for real-world data. By combining real-time earthquake information with customizable map markers, this application offers a meaningful way to explore and understand earthquake patterns globally.
